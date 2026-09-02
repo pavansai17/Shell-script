@@ -14,15 +14,19 @@ echo "Subtraction of a-b is $bus"
 boss=$((a*b))
 echo "Multiplication of a* b is $boss"
 
-#4.Modulus division of a and b 
+#4.Division of two numbers a and b
+div=$((a/b))
+echo "Division of a and b is $div"
+
+#5.Modulus division of a and b 
 mod=$((a%b))
 echo "Modulus division of a%b is $mod"
 
-#5.Incrementing 'a' value by 1
+#6.Incrementing 'a' value by 1
 bos=$((a+1))
 echo "Increment of $a is $bos"
 
-#6.Decrementing 'b' value by 1
+#7.Decrementing 'b' value by 1
 bosss=$((b-1))
 echo "Decrement of $b is $bosss"
 
