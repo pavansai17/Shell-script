@@ -1,17 +1,28 @@
 #! /bin/bash
 
-read -p "Enter a value" a
-read -p "Enter b value" b
+read -p "Enter a value:" a
+read -p "Enter b value:" b
+#1.Addition of two numbers a and b
 res=$((a+b))
+echo "Result of a+b is $res"
+
+#2.Subtraction of two numbers a and b
 bus=$((a-b))
+echo "Subtraction of a-b is $bus"
+
+#3.Multiplication of two numbers a and b
 boss=$((a*b))
-echo "Result of a+b are $res"
-echo "Subtraction of a and b are $bus"
-echo "Multiplication of and b are $boss"
+echo "Multiplication of a* b is $boss"
+
+#4.Modulus division of a and b 
 mod=$((a%b))
-echo "Modulus division of a and b are $mod"
+echo "Modulus division of a%b is $mod"
+
+#5.Incrementing 'a' value by 1
 bos=$((a+1))
 echo "Increment of $a is $bos"
+
+#6.Decrementing 'b' value by 1
 bosss=$((b-1))
 echo "Decrement of $b is $bosss"
 
