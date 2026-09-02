@@ -2,6 +2,8 @@
 #To add two Float values
 a=3.14
 b=7.624
-c=$(echo "$a+$b" | bc) #| means It takes output of first side and takes to next side and bc means - basic calculator[Linux command calculator used to handle floats]
+d=$(echo "$a+$b") #Just demonstrates string concatenation
+c=$(echo "$a+$b" | bc) 
+# $ - It prints or run whatever inside and ($a+$b) - Combines 3.14+7.624 as string then this output is piped to basic calculator
 echo $c
-
+echo $d
